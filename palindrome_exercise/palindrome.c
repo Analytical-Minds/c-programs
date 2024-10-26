@@ -43,8 +43,8 @@ int main()
 		}
 		else if (!regres) {
 			printf("Match found\n");
-			valid_input = 1;
 			strcpy(test_num, user_input); //copy the string
+			valid_input = 1; //terminate the while loop
 		}
 	}
 
