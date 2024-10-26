@@ -39,7 +39,7 @@ int main()
 		if (regres != 0) {
 			char errbuf[100];
 			regerror(regres, &regex, errbuf, sizeof(errbuf));
-			printf("That is not a number: %s\n", errbuf);
+			printf("That is not a number: %s\n", errbuf); //print error message
 		}
 		else if (!regres) {
 			printf("Match found\n");
