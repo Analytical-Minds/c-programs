@@ -57,10 +57,10 @@ int main()
 			else {
 				strcpy(test_num, user_input); //copy the string
 			}
-		}
 
-		printf("This is now the test num: %s\n", test_num);
-		valid_input = 1;
+			printf("This is now the test num: %s\n", test_num);
+			valid_input = 1; // terminate loop
+		}
 	}
 
 	// Save original cleaned string before reversing for palindrome comparison
