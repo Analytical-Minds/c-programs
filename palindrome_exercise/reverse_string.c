@@ -14,7 +14,7 @@ void reverse_string(char *str) {
 
 	//swap characters from start and end until they meet in the middle
 	while (start < end) {
-		tmp = str[start]; //store at index start temporarily
+		tmp = str[start]; //store character at index start temporarily
 		str[start] = str[end]; //change value at start index to end value
 		str[end] = tmp; //swap end value and temp value
 		start++; //shift and index forward
