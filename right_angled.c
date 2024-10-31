@@ -15,7 +15,7 @@ int main()
 
 	//check for valid angles (greater than zero and less than 90)
 	if (angle1 <= 0 || angle2 <= 0 || angle1 >= 90 || angle2 >= 90) {
-		printf("Invalid input. Angles must be positive and less than 90\n");
+		printf("Invalid input. Angles must be positive numbers and less than 90\n");
 	}
 	//check if the sum of angles equal 90 degrees
 	else if ((angle1 + angle2) == 90) {
